@@ -124,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669924142515</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Feat: Create new test to test for secondary Colour constructor taking one combined RGB value">
+      <created>1669924351087</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669924351087</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Feat: Add new Colour constructor to allow constructor test to operate normally">
+      <created>1669924455737</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669924455737</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,8 +173,12 @@
     <MESSAGE value="Feat: Create new class Colour.java to allow first test to work" />
     <MESSAGE value="Feat: Create new test for illegal floating number range for Colour" />
     <MESSAGE value="Feat: Create checks in Colour class for illegal range for floating numbers" />
-    <MESSAGE value="Feat: Create checks in Colour class for illegal range for floating numbers to satisfy new test&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
+    <MESSAGE value="Feat: Add checks in Colour class for illegal range for floating numbers to satisfy new test&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
     <MESSAGE value="Feat: Create new test to test for secondary Colour constructor taking one value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Create new test to test for secondary Colour constructor taking one value" />
+    <MESSAGE value="Feat: Create new test to test for secondary Colour constructor taking one combined RGB value" />
+    <MESSAGE value="Feat: Create new test for secondary Colour constructor taking one combined RGB value&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
+    <MESSAGE value="Feat: Add new Colour constructor to allow constructor test to operate normally" />
+    <MESSAGE value="Feat: Add new class Colour.java to allow first test to work&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add new Colour constructor to allow constructor test to operate normally" />
   </component>
 </project>
