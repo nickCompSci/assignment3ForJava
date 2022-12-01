@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +172,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669926934863</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Feat: Add private float variable 'green' which is assigned in constructor and has a getter">
+      <created>1669927019160</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669927019160</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Feat: Create new test for getter of blue value">
+      <created>1669927105568</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669927105568</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Feat: Add private float variable 'blue' which is assigned in constructor and has a getter">
+      <created>1669927198516</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669927198516</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,8 +237,10 @@
     <MESSAGE value="Feat: Create new test for getter of Float constructor for red value" />
     <MESSAGE value="Feat: Add private float variable 'red' which is assigned in constructor and has a getter" />
     <MESSAGE value="Feat: Create new test for getter for green value" />
-    <MESSAGE value="Feat: Add private float variable 'green' which is assigned in constructor and has a getter" />
     <MESSAGE value="Feat: Create new test for getter of Float constructor for green value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Create new test for getter of Float constructor for green value" />
+    <MESSAGE value="Feat: Add private float variable 'green' which is assigned in constructor and has a getter" />
+    <MESSAGE value="Feat: Create new test for getter of blue value" />
+    <MESSAGE value="Feat: Add private float variable 'blue' which is assigned in constructor and has a getter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add private float variable 'blue' which is assigned in constructor and has a getter" />
   </component>
 </project>
