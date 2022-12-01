@@ -37,5 +37,10 @@ public class ColourTest {
         Colour testGreenValueOfColour = new Colour(0.2f, 0.5f, 0.3f);
         assertEquals(0.5f, testGreenValueOfColour.getGreenValue());
     }
+    @Test
+    void testFloatConstructorGetterForBlue(){
+        Colour testBlueValueOfColour = new Colour(0.2f, 0.5f, 0.3f);
+        assertEquals(0.3f, testBlueValueOfColour.getBlueValue());
+    }
 
 }
