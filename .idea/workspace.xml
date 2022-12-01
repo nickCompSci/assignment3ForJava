@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669927198516</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Feat:Create new test for red value of combined constructor">
+      <created>1669927679779</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669927679779</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +248,8 @@
     <MESSAGE value="Feat: Add private float variable 'green' which is assigned in constructor and has a getter" />
     <MESSAGE value="Feat: Create new test for getter of blue value" />
     <MESSAGE value="Feat: Add private float variable 'blue' which is assigned in constructor and has a getter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add private float variable 'blue' which is assigned in constructor and has a getter" />
+    <MESSAGE value="Feat:Create new test for red value of combined constructor" />
+    <MESSAGE value="Feat: Create new test for red value of combined constructor&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat:Create new test for red value of combined constructor" />
   </component>
 </project>

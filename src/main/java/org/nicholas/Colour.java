@@ -19,7 +19,8 @@ public class Colour {
         this.blue = blue;
     }
     public Colour(int combinedRgbValue){
-
+        int red =( combinedRgbValue >> 16) & 0xFF;
+        this.red = red / 255.0f;
     }
 
     public float getRedValue() {
