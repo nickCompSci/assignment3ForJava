@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="Feat: Create new class ColourTest.java inside test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,11 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.nicholas" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669896622380</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feat: Add dependencies on JUNIT in pom.xml">
+      <created>1669897958982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669897958982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +111,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Feat: Add dependency on JUNIT in pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add dependency on JUNIT in pom.xml" />
+    <MESSAGE value="Feat: Add dependencies on JUNIT in pom.xml" />
+    <MESSAGE value="Feat: Create new class ColourTest.java inside test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Create new class ColourTest.java inside test" />
   </component>
 </project>
