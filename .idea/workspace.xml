@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="Feat: Create new test">
+    <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" afterDir="false" />
     </list>
@@ -33,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.nicholas" />
@@ -103,7 +103,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669899884623</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feat: Create new test for illegal floating number range for Colour">
+      <created>1669901322040</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669901322040</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Feat: Create checks in Colour class for illegal range for floating numbers">
+      <created>1669901471791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669901471791</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feat: Create new test to test for secondary Colour constructor taking one value">
+      <created>1669924142515</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669924142515</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +157,10 @@
     <MESSAGE value="Feat: Create new class ColourTest.java inside test" />
     <MESSAGE value="Feat: Create new test method to test a colour constructor with 3 floats" />
     <MESSAGE value="Feat: Create new class Colour.java to allow first test to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Create new class Colour.java to allow first test to work" />
+    <MESSAGE value="Feat: Create new test for illegal floating number range for Colour" />
+    <MESSAGE value="Feat: Create checks in Colour class for illegal range for floating numbers" />
+    <MESSAGE value="Feat: Create checks in Colour class for illegal range for floating numbers to satisfy new test&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
+    <MESSAGE value="Feat: Create new test to test for secondary Colour constructor taking one value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Create new test to test for secondary Colour constructor taking one value" />
   </component>
 </project>

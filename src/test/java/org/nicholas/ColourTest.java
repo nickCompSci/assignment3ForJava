@@ -8,7 +8,11 @@ public class ColourTest {
     void testColourConstructor() {
         Colour testColour = new Colour(0.1f, 0.5f, 0.6f);
         assertNotNull(testColour, "Object is null.");
-
+    }
+    @Test
+    void testColourConstructorWithCombinedRgbValues(){
+        Colour testColourConstructor2 = new Colour(500);
+        assertNotNull(testColourConstructor2, "This Colour object is null!");
     }
     @Test
     void testColourConstructorRange(){
