@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669928427680</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Feat: Create new test for blue value of combined constructor">
+      <created>1669928510872</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669928510872</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Feat: Add logic to obtain blue value of colour from combined integer">
+      <created>1669928610614</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1669928610614</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,8 +262,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Add dependency on JUNIT in pom.xml" />
-    <MESSAGE value="Feat: Add dependencies on JUNIT in pom.xml" />
     <MESSAGE value="Feat: Create new class ColourTest.java inside test" />
     <MESSAGE value="Feat: Create new test method to test a colour constructor with 3 floats" />
     <MESSAGE value="Feat: Create new class Colour.java to allow first test to work" />
@@ -274,6 +285,8 @@
     <MESSAGE value="Feat: Add logic to obtain red value of colour from combined integer" />
     <MESSAGE value="Feat: Create new test for green value of combined constructor" />
     <MESSAGE value="Feat: Add logic to obtain green value of colour from combined integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add logic to obtain green value of colour from combined integer" />
+    <MESSAGE value="Feat: Create new test for blue value of combined constructor" />
+    <MESSAGE value="Feat: Add logic to obtain blue value of colour from combined integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add logic to obtain blue value of colour from combined integer" />
   </component>
 </project>

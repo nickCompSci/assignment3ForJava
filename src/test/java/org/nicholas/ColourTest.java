@@ -59,4 +59,11 @@ public class ColourTest {
         assertEquals(1.0, testBlueValueOfCombinedColour.getBlueValue());
     }
 
+    @Test
+    void testIfTwoColoursAreEqualSameConstructor(){
+        Colour testColourVersionOne = new Colour(0.2f, 0.5f, 0.3f);
+        Colour testColourVersionTwo = new Colour(0.2f, 0.5f, 0.3f);
+        assertTrue(testColourVersionOne.equals(testColourVersionTwo));
+    }
+
 }
