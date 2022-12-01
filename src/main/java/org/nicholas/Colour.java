@@ -12,4 +12,7 @@ public class Colour {
             throw new IllegalArgumentException("Values for red, green and blue must be in range 0.0 and 1.0");
         }
     }
+    public Colour(int combinedRgbValue){
+
+    }
 }
