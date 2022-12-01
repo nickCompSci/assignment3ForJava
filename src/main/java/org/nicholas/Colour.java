@@ -21,8 +21,10 @@ public class Colour {
     public Colour(int combinedRgbValue){
         int red =( combinedRgbValue >> 16) & 0xFF;
         int green = (combinedRgbValue >> 8) & 0xFF;
+        int blue = (combinedRgbValue) & 0xFF;
         this.red = red / 255.0f;
         this.green = green / 255.0f;
+        this.blue = blue / 255.0f;
     }
 
     public float getRedValue() {
