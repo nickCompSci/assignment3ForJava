@@ -53,5 +53,10 @@ public class ColourTest {
         Colour testGreenValueOfCombinedColour = new Colour(16777215);
         assertEquals(1.0, testGreenValueOfCombinedColour.getGreenValue());
     }
+    @Test
+    void testCombinedConstructorValueForBlue(){
+        Colour testBlueValueOfCombinedColour = new Colour(16777215);
+        assertEquals(1.0, testBlueValueOfCombinedColour.getBlueValue());
+    }
 
 }
