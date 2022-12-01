@@ -10,4 +10,14 @@ public class ColourTest {
         assertNotNull(testColour, "Object is null.");
 
     }
+    @Test
+    void testColourConstructorRange(){
+        Exception exception = assertThrows(
+                IllegalArgumentException.class,
+                () ->{
+                    Colour testColourRange = new Colour(2.0f, -1.2f, 3.0f);
+                }
+        );
+        assertEquals("Values for red, green and blue must be in range 0.0 and 1.0", exception.getMessage());
+    }
 }
