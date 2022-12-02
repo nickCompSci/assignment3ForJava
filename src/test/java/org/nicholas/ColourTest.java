@@ -65,20 +65,20 @@ public class ColourTest {
     void testTwoColoursAreEqualSameConstructor(){
         Colour testColourVersionOne = new Colour(0.2f, 0.5f, 0.3f);
         Colour testColourVersionTwo = new Colour(0.2f, 0.5f, 0.3f);
-        assertTrue(testColourVersionOne.equals(testColourVersionTwo));
+        assertEquals(testColourVersionOne, testColourVersionTwo);
     }
 
     @Test
     void testTwoColoursAreEqualDifferentConstructor(){
         Colour testColourVersionOne = new Colour(1.0f, 1.0f, 1.0f);
         Colour testColourVersionTwo = new Colour(16777215);
-        assertTrue(testColourVersionOne.equals(testColourVersionTwo));
+        assertEquals(testColourVersionOne, testColourVersionTwo);
     }
 
     @Test
     void testNonEqualColours(){
         Colour testColourVersionOne = new Colour(1.0f, 1.0f, 1.0f);
         Colour testColourVersionTwo = new Colour(7777123);
-        assertFalse(testColourVersionOne.equals(testColourVersionTwo));
+        assertNotEquals(testColourVersionOne, testColourVersionTwo);
     }
 }
