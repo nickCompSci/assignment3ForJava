@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -342,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669988797600</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Refactor: Simplify if statement in Floating constructor">
+      <created>1669989009930</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1669989009930</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +377,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Add logic to Colour class to override the equals method" />
     <MESSAGE value="Feat: Create new test to see if 2 different constructor colour objects are equal" />
     <MESSAGE value="Feat: Create new test to see if 2 colours are non-equal" />
     <MESSAGE value="Feat: Add logic to Colour.java to override equals method" />
@@ -394,7 +401,8 @@
     <MESSAGE value="Test: Edit some test names and variables for better clarity&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
     <MESSAGE value="Test: Simplify some assert statements regarding testing equal/non-equal colours&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
     <MESSAGE value="Docs: Add javadoc to class definition in ColourTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docs: Add javadoc to class definition in ColourTest.java" />
+    <MESSAGE value="Refactor: Simplify if statement in Floating constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: Simplify if statement in Floating constructor" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Colour$ColourTest_testTwoColoursDifferentConstructorEqual.ic" NAME="ColourTest.testTwoColoursDifferentConstructorEqual Coverage Results" MODIFIED="1669929822785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
