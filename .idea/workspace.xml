@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669990866599</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Refactor: Simplify equals method using a pattern variable">
+      <created>1669990910782</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1669990910782</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,7 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Add logic to Colour.java to override equals method" />
     <MESSAGE value="Feat: Create new test for 2 colours from different constructors but should be equal" />
     <MESSAGE value="Feat: Create new test for non-equal colours" />
     <MESSAGE value="Docs: Add javadocs to Colour.java for documentation" />
@@ -416,7 +423,8 @@
     <MESSAGE value="Refactor: Simplify if statement in Floating constructor" />
     <MESSAGE value="Refactor: Delete Main.java as not required" />
     <MESSAGE value="Refactor: Change rbg variables to final as they can not be changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: Change rbg variables to final as they can not be changed" />
+    <MESSAGE value="Refactor: Simplify equals method using a pattern variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: Simplify equals method using a pattern variable" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Colour$ColourTest_testTwoColoursDifferentConstructorEqual.ic" NAME="ColourTest.testTwoColoursDifferentConstructorEqual Coverage Results" MODIFIED="1669929822785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
