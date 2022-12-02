@@ -3,6 +3,10 @@ package org.nicholas;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
+/** Represents a testing class for a Colour class
+ * using Test Driven Development.
+ *
+ */
 public class ColourTest {
     @Test
     void testFloatColourConstructor() {
