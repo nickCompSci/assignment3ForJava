@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="Feat: Develop small example of using Colours in Main.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" afterDir="false" />
+    <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669984548253</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Docs: Add javadocs to Colour.java for documentation">
+      <created>1669987020025</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1669987020025</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,10 +348,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Create new test to test for secondary Colour constructor taking one combined RGB value" />
-    <MESSAGE value="Feat: Create new test for secondary Colour constructor taking one combined RGB value&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
-    <MESSAGE value="Feat: Add new Colour constructor to allow constructor test to operate normally" />
-    <MESSAGE value="Feat: Add new class Colour.java to allow first test to work&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
     <MESSAGE value="Feat: Create new test for getter of Float constructor for red value" />
     <MESSAGE value="Feat: Add private float variable 'red' which is assigned in constructor and has a getter" />
     <MESSAGE value="Feat: Create new test for getter for green value" />
@@ -367,7 +369,11 @@
     <MESSAGE value="Feat: Add logic to Colour.java to override equals method" />
     <MESSAGE value="Feat: Create new test for 2 colours from different constructors but should be equal" />
     <MESSAGE value="Feat: Create new test for non-equal colours" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Create new test for non-equal colours" />
+    <MESSAGE value="Docs: Add javadocs to Colour.java for documentation" />
+    <MESSAGE value="Build: Add dependencies on JUNIT in pom.xml&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
+    <MESSAGE value="Feat: Create new test for secondary Colour constructor taking one combined RGB integer value&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
+    <MESSAGE value="Feat: Add new Colour constructor to allow constructor test to operate normally&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docs: Add javadocs to Colour.java for documentation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Colour$ColourTest_testTwoColoursDifferentConstructorEqual.ic" NAME="ColourTest.testTwoColoursDifferentConstructorEqual Coverage Results" MODIFIED="1669929822785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

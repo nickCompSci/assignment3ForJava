@@ -5,73 +5,76 @@ import org.junit.jupiter.api.Test;
 
 public class ColourTest {
     @Test
-    void testColourConstructor() {
+    void testFloatColourConstructor() {
         Colour testColour = new Colour(0.1f, 0.5f, 0.6f);
-        assertNotNull(testColour, "Object is null.");
-    }
-    @Test
-    void testColourConstructorWithCombinedRgbValues(){
-        Colour testColourConstructor2 = new Colour(500);
-        assertNotNull(testColourConstructor2, "This Colour object is null!");
+        assertNotNull(testColour, "This Colour object is null!");
     }
 
     @Test
-    void testColourConstructorRange(){
+    void testFloatColourConstructorInvalidRange(){
         Exception exception = assertThrows(
                 IllegalArgumentException.class,
                 () ->{
-                    Colour testColourRange = new Colour(2.0f, -1.2f, 3.0f);
+                    Colour testColour = new Colour(2.0f, -1.2f, 3.0f);
                 }
         );
         assertEquals("Values for red, green and blue must be in range 0.0 and 1.0", exception.getMessage());
     }
 
     @Test
-    void testFloatConstructorGetterForRed(){
-        Colour testRedValueOfColour = new Colour(0.2f, 0.5f, 0.3f);
-        assertEquals(0.2f, testRedValueOfColour.getRedValue());
+    void testIntegerColourConstructor(){
+        Colour testColour = new Colour(500);
+        assertNotNull(testColour, "This Colour object is null!");
     }
 
     @Test
-    void testFloatConstructorGetterForGreen(){
+    void testPrivateRedValueWithFloatConstructor(){
+        Colour testColour = new Colour(0.2f, 0.5f, 0.3f);
+        assertEquals(0.2f, testColour.getRedValue());
+    }
+
+    @Test
+    void testPrivateGreenValueWithFloatConstructor(){
         Colour testGreenValueOfColour = new Colour(0.2f, 0.5f, 0.3f);
         assertEquals(0.5f, testGreenValueOfColour.getGreenValue());
     }
+
     @Test
-    void testFloatConstructorGetterForBlue(){
-        Colour testBlueValueOfColour = new Colour(0.2f, 0.5f, 0.3f);
-        assertEquals(0.3f, testBlueValueOfColour.getBlueValue());
+    void testPrivateBlueValueWithFloatConstructor(){
+        Colour testColour = new Colour(0.2f, 0.5f, 0.3f);
+        assertEquals(0.3f, testColour.getBlueValue());
     }
 
     @Test
-    void testCombinedConstructorValueForRed(){
-        Colour testRedValueOfCombinedColour = new Colour(16777215);
-        assertEquals(1.0, testRedValueOfCombinedColour.getRedValue());
+    void testPrivateValueForRedCombinedConstructor(){
+        Colour testColour = new Colour(16777215);
+        assertEquals(1.0, testColour.getRedValue());
     }
     @Test
-    void testCombinedConstructorValueForGreen(){
-        Colour testGreenValueOfCombinedColour = new Colour(16777215);
-        assertEquals(1.0, testGreenValueOfCombinedColour.getGreenValue());
+    void testPrivateValueForGreenCombinedConstructor(){
+        Colour testColour = new Colour(16777215);
+        assertEquals(1.0, testColour.getGreenValue());
     }
     @Test
-    void testCombinedConstructorValueForBlue(){
-        Colour testBlueValueOfCombinedColour = new Colour(16777215);
-        assertEquals(1.0, testBlueValueOfCombinedColour.getBlueValue());
+    void testPrivateValueForBlueCombinedConstructor(){
+        Colour testColour = new Colour(16777215);
+        assertEquals(1.0, testColour.getBlueValue());
     }
 
     @Test
-    void testIfTwoColoursAreEqualSameConstructor(){
+    void testTwoColoursAreEqualSameConstructor(){
         Colour testColourVersionOne = new Colour(0.2f, 0.5f, 0.3f);
         Colour testColourVersionTwo = new Colour(0.2f, 0.5f, 0.3f);
         assertTrue(testColourVersionOne.equals(testColourVersionTwo));
     }
 
     @Test
-    void testTwoColoursDifferentConstructorEqual(){
+    void testTwoColoursAreEqualDifferentConstructor(){
         Colour testColourVersionOne = new Colour(1.0f, 1.0f, 1.0f);
         Colour testColourVersionTwo = new Colour(16777215);
         assertTrue(testColourVersionOne.equals(testColourVersionTwo));
     }
+
     @Test
     void testNonEqualColours(){
         Colour testColourVersionOne = new Colour(1.0f, 1.0f, 1.0f);
