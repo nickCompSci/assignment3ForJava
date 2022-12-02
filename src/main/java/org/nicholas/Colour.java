@@ -1,9 +1,21 @@
 package org.nicholas;
 
+/**Represents a colour in the RGB values.
+ * @author Nicholas Shapovalov, 120406902
+ *
+ */
 public class Colour {
     private float red;
     private float green;
     private float blue;
+
+    /** Constructor for the Colour class which takes in 3 floating values to
+     * represent a colour as rgb values.
+     *
+     * @param red Floating number that represents the intensity of red.
+     * @param green Floating number that represents the intensity of green.
+     * @param blue Floating number that represents the intensity of blue.
+     */
     public Colour(float red, float green, float blue) {
         if (red > 1.0 || red < 0.0){
             throw new IllegalArgumentException("Values for red, green and blue must be in range 0.0 and 1.0");
@@ -18,6 +30,13 @@ public class Colour {
         this.green = green;
         this.blue = blue;
     }
+
+    /**Constructor for the colour class which takes an integer which represents
+     * the combined rbg value of a colour. Separates the integer into respective
+     * red,green,blue floating values using bit manipulation.
+     *
+     * @param combinedRgbValue Integer value representing combined RGB value.
+     */
     public Colour(int combinedRgbValue){
         int red =( combinedRgbValue >> 16) & 0xFF;
         int green = (combinedRgbValue >> 8) & 0xFF;
@@ -27,14 +46,26 @@ public class Colour {
         this.blue = blue / 255.0f;
     }
 
+    /**
+     * Gets the floating value of the red intensity of a colour.
+     * @return Float value of red intensity.
+     */
     public float getRedValue() {
         return this.red;
     }
 
+    /**
+     * Gets the floating value of the green intensity of a colour.
+     * @return Float value of green intensity.
+     */
     public float getGreenValue() {
         return this.green;
     }
 
+    /**
+     * Gets the floating value of the blue intensity of a colour.
+     * @return Float value of blue intensity.
+     */
     public float getBlueValue() {
         return this.blue;
     }
