@@ -66,4 +66,10 @@ public class ColourTest {
         assertTrue(testColourVersionOne.equals(testColourVersionTwo));
     }
 
+    @Test
+    void testTwoColoursDifferentConstructorEqual(){
+        Colour testColourVersionOne = new Colour(1.0f, 1.0f, 1.0f);
+        Colour testColourVersionTwo = new Colour(16777215);
+        assertTrue(testColourVersionOne.equals(testColourVersionTwo));
+    }
 }
