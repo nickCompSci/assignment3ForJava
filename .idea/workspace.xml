@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nicholas/ColourTest.java" afterDir="false" />
+    <list default="true" id="27e1e699-f118-4eb6-8324-5a742dd91a4c" name="Changes" comment="Feat: Create new test to see if 2 colours are non-equal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicholas/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,29 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.nicholas" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ColourTest.testTwoColoursDifferentConstructorEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Colour" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nicholas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.nicholas" />
+      <option name="MAIN_CLASS_NAME" value="org.nicholas.ColourTest" />
+      <option name="METHOD_NAME" value="testTwoColoursDifferentConstructorEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ColourTest.testTwoColoursDifferentConstructorEqual" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -235,7 +259,42 @@
       <option name="project" value="LOCAL" />
       <updated>1669928610614</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Feat: Create new test to see if 2 same constructor colour objects equal">
+      <created>1669929159594</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1669929159594</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Feat: Add logic to Colour class to override the equals method">
+      <created>1669929678809</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1669929678809</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Feat: Create new test to see if 2 different constructor colour objects are equal">
+      <created>1669929913631</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669929913631</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Feat: Create new test to see if 2 different constructor colour objects are equal">
+      <created>1669983979738</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1669983979738</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Feat: Create new test to see if 2 colours are non-equal">
+      <created>1669984161808</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1669984161808</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,10 +321,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Create new class ColourTest.java inside test" />
-    <MESSAGE value="Feat: Create new test method to test a colour constructor with 3 floats" />
-    <MESSAGE value="Feat: Create new class Colour.java to allow first test to work" />
-    <MESSAGE value="Feat: Create new test for illegal floating number range for Colour" />
     <MESSAGE value="Feat: Create checks in Colour class for illegal range for floating numbers" />
     <MESSAGE value="Feat: Add checks in Colour class for illegal range for floating numbers to satisfy new test&#10;&#10;Signed-off-by: Nicholas Shapovalov &lt;120406902@umail.ucc.ie&gt;" />
     <MESSAGE value="Feat: Create new test to test for secondary Colour constructor taking one value" />
@@ -287,6 +342,15 @@
     <MESSAGE value="Feat: Add logic to obtain green value of colour from combined integer" />
     <MESSAGE value="Feat: Create new test for blue value of combined constructor" />
     <MESSAGE value="Feat: Add logic to obtain blue value of colour from combined integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add logic to obtain blue value of colour from combined integer" />
+    <MESSAGE value="Feat: Create new test to see if 2 same constructor colour objects equal" />
+    <MESSAGE value="Feat: Add logic to Colour class to override the equals method" />
+    <MESSAGE value="Feat: Create new test to see if 2 different constructor colour objects are equal" />
+    <MESSAGE value="Feat: Create new test to see if 2 colours are non-equal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Create new test to see if 2 colours are non-equal" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Colour$ColourTest_testTwoColoursDifferentConstructorEqual.ic" NAME="ColourTest.testTwoColoursDifferentConstructorEqual Coverage Results" MODIFIED="1669929822785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.nicholas.*</FILTER>
+    </SUITE>
   </component>
 </project>

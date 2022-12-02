@@ -38,4 +38,20 @@ public class Colour {
     public float getBlueValue() {
         return this.blue;
     }
+
+    @Override
+    public boolean equals(Object anotherColour){
+        if (anotherColour == this){
+            return true;
+        }
+        if (!(anotherColour instanceof Colour)){
+            return false;
+        }
+
+        Colour typeCastColour = (Colour) anotherColour;
+
+        return Float.compare(this.getRedValue(), typeCastColour.getRedValue()) == 0
+                && Float.compare(this.getGreenValue(), typeCastColour.getGreenValue()) == 0
+                && Float.compare(this.getBlueValue(), typeCastColour.getBlueValue()) == 0;
+    }
 }
