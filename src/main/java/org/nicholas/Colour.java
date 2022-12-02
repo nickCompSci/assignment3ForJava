@@ -5,9 +5,9 @@ package org.nicholas;
  *
  */
 public class Colour {
-    private float red;
-    private float green;
-    private float blue;
+    private final float red;
+    private final float green;
+    private final float blue;
 
     /** Constructor for the Colour class which takes in 3 floating values to
      * represent a colour as rgb values.
