@@ -32,6 +32,18 @@ public class ColourTest {
     }
 
     @Test
+    void testIntegerColourConstructorInvalidRange(){
+
+        Exception exception = assertThrows(
+                IllegalArgumentException.class,
+                () ->{
+                    Colour testColour = new Colour(16777217); // 2^24 = 16777216 (can not be greater)
+                }
+        );
+        assertEquals("Integer Value must be in range 0 and 16777216", exception.getMessage());
+    }
+
+    @Test
     void testPrivateRedValueWithFloatConstructor(){
         Colour testColour = new Colour(0.2f, 0.5f, 0.3f);
         assertEquals(0.2f, testColour.getRedValue());
