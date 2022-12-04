@@ -32,6 +32,9 @@ public class Colour {
      * @param combinedRgbValue Integer value representing combined RGB value.
      */
     public Colour(int combinedRgbValue){
+        if (combinedRgbValue > 16777216 || combinedRgbValue < 0){
+            throw new IllegalArgumentException("Integer Value must be in range 0 and 16777216");
+        }
         int red =( combinedRgbValue >> 16) & 0xFF;
         int green = (combinedRgbValue >> 8) & 0xFF;
         int blue = (combinedRgbValue) & 0xFF;
