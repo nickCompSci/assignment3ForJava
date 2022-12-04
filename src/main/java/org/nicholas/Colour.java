@@ -10,7 +10,7 @@ public class Colour {
     private final float blue;
 
     /** Constructor for the Colour class which takes in 3 floating values to
-     * represent a colour as rgb values.
+     * represent a colour as rgb values in the range 0.0 and 1.0
      *
      * @param red Floating number that represents the intensity of red.
      * @param green Floating number that represents the intensity of green.
@@ -26,7 +26,7 @@ public class Colour {
     }
 
     /**Constructor for the colour class which takes an integer which represents
-     * the combined rbg value of a colour. Separates the integer into respective
+     * the combined rbg value of a colour in the range of 0 and 16777216. Separates the integer into respective
      * red,green,blue floating values using bit manipulation.
      *
      * @param combinedRgbValue Integer value representing combined RGB value.
